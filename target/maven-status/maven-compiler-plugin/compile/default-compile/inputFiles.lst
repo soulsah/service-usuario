@@ -1,0 +1,12 @@
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/adapters/mapper/UserMapper.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/adapters/persistence/UserRepository.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/adapters/config/DynamoDbConfiguration.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/domain/enums/TipoUsuario.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/adapters/records/UserRecord.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/domain/exception/UserNotFoundException.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/application/service/UserServiceImpl.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/ServiceUsuarioApplication.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/domain/model/User.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/domain/exception/CustomExceptionHandler.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/application/port/UserService.java
+/home/qrd/Downloads/service--usuario/src/main/java/br/com/fiap/postech/soat/hackathon/service__usuario/adapters/controller/UserController.java

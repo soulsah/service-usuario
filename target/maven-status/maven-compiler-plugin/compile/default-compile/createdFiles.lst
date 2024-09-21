@@ -1,0 +1,12 @@
+br/com/fiap/postech/soat/hackathon/service__usuario/adapters/records/UserRecord.class
+br/com/fiap/postech/soat/hackathon/service__usuario/application/port/UserService.class
+br/com/fiap/postech/soat/hackathon/service__usuario/adapters/config/DynamoDbConfiguration.class
+br/com/fiap/postech/soat/hackathon/service__usuario/domain/model/User.class
+br/com/fiap/postech/soat/hackathon/service__usuario/application/service/UserServiceImpl.class
+br/com/fiap/postech/soat/hackathon/service__usuario/adapters/persistence/UserRepository.class
+br/com/fiap/postech/soat/hackathon/service__usuario/adapters/mapper/UserMapper.class
+br/com/fiap/postech/soat/hackathon/service__usuario/domain/enums/TipoUsuario.class
+br/com/fiap/postech/soat/hackathon/service__usuario/domain/exception/CustomExceptionHandler.class
+br/com/fiap/postech/soat/hackathon/service__usuario/domain/exception/UserNotFoundException.class
+br/com/fiap/postech/soat/hackathon/service__usuario/ServiceUsuarioApplication.class
+br/com/fiap/postech/soat/hackathon/service__usuario/adapters/controller/UserController.class
