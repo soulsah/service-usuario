@@ -57,6 +57,12 @@ Para rodar a aplicação no AWS ECS, foi criado o arquivo Dockerflie que gerenci
 
 ![image](https://github.com/user-attachments/assets/50101a42-06a1-4df0-a864-ce14e1964717)
 
+## Cobertura de Testes Unitários da aplicação service-usuario
+
+Comprovando acima de 80% de cobertura de testes unitário:
+
+![image](https://github.com/user-attachments/assets/28d13ac4-2ca8-4b08-9710-249002323c7e)
+
 
 ## Documentação das API's
 
