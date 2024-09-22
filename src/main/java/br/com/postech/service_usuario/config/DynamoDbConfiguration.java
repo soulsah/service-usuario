@@ -48,7 +48,7 @@ public class DynamoDbConfiguration {
     private AwsClientBuilder.EndpointConfiguration endpointConfiguration() {
         return new AwsClientBuilder.EndpointConfiguration(
                 "http://localhost:8000",
-                "sa-east-1"
+                "us-east-1"
         );
     }
     private AWSStaticCredentialsProvider credentialsProvider() {
