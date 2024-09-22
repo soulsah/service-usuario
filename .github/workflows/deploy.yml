@@ -1,0 +1,35 @@
+name: Deploy to ECR
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_push:
+    name: Build and Push Docker image to ECR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Log in to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build and push Docker image
+        env:
+          ECR_URI: 496778154277.dkr.ecr.us-east-1.amazonaws.com
+          IMAGE_NAME: service-usuario
+        run: |
+          docker buildx build --platform linux/amd64 -t $ECR_URI/$IMAGE_NAME:latest .
+          docker push $ECR_URI/$IMAGE_NAME:latest
+
+      - name: Post Push Verification
+        run: |
+          echo "Docker image pushed to ECR: $ECR_URI/$IMAGE_NAME:latest"
+
