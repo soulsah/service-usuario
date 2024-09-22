@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "28e3d805-fef1-4c7b-a47f-3a0c757d2773",
+		"name": "Hackathon Fiap 2024-DynamoDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13136203"
+	},
+	"item": [
+		{
+			"name": "Post Medico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"123e4567-e89b-12d3-a456-426614174033\",\n    \"tipoUsuario\": \"MEDICO\",\n    \"nome\": \"José Ferreira\",\n    \"documento\": \"123456789\",\n    \"email\": \"joao.ferreira@example.com\",\n    \"crm\": \"4452122\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cadastrar/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cadastrar",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Paciente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"123e4567-e89b-12d3-a456-426614174123\",\n    \"tipoUsuario\": \"PACIENTE\",\n    \"nome\": \"José Ferreira\",\n    \"documento\": \"123456789\",\n    \"email\": \"joao.ferreira@example.com\",\n    \"crm\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cadastrar/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cadastrar",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"123e4567-e89b-12d3-a456-426614174123\",\n    \"tipoUsuario\": \"PACIENTE\",\n    \"nome\": \"José Ferreira\",\n    \"documento\": \"123456789\",\n    \"email\": \"joao.ferreira@example.com\",\n    \"crm\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cadastrar/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cadastrar",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User By Document",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"123e4567-e89b-12d3-a456-426614174123\",\n    \"tipoUsuario\": \"PACIENTE\",\n    \"nome\": \"José Ferreira\",\n    \"documento\": \"123456789\",\n    \"email\": \"joao.ferreira@example.com\",\n    \"crm\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cadastrar/usuario/documento/1234567",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cadastrar",
+						"usuario",
+						"documento",
+						"1234567"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User By CRM",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"123e4567-e89b-12d3-a456-426614174123\",\n    \"tipoUsuario\": \"PACIENTE\",\n    \"nome\": \"José Ferreira\",\n    \"documento\": \"123456789\",\n    \"email\": \"joao.ferreira@example.com\",\n    \"crm\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cadastrar/usuario/crm/4452122",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cadastrar",
+						"usuario",
+						"crm",
+						"4452122"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Medico",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"d4f7d63e-63b2-4c0a-9d62-bb6e84b78e6c\",\n    \"tipoUsuario\": \"MEDICO\",\n    \"nome\": \"José Ferreira\",\n    \"documento\": \"123456789\",\n    \"email\": \"joao.ferreira@example.com\",\n    \"crm\": \"47323\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cadastrar/usuario/d4f7d63e-63b2-4c0a-9d62-bb6e84b78e6c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cadastrar",
+						"usuario",
+						"d4f7d63e-63b2-4c0a-9d62-bb6e84b78e6c"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
