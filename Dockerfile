@@ -1,9 +1,14 @@
-FROM openjdk:17-jdk-slim
+FROM maven:3.9.1 AS MAVEN_BUILD
+COPY . /build
+WORKDIR /build
+RUN mvn clean package
+
+FROM openjdk:17-alpine
 
 WORKDIR /app
 
-COPY target/service-notification-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=MAVEN_BUILD /build/target/*.jar /app/application.jar
 
-EXPOSE 8080
+EXPOSE 8081
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "/app/application.jar"]
