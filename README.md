@@ -17,13 +17,24 @@ Framework:
 
 - Spring Boot 3.3.4
 
+Recursos AWS Criados
+- AWS API Gateway
+- AWS ECS
+- AWS ECR
+- AWS SQS
+- AWS DynamoDB
+- AWS VPC
+- AWS LoadBalance
+- AWS Lambda Function
+- AWS Service task
+
 Bibliotecas:
 
 - Spring Web
 - OpenAPI
 - Lombok
-- AWS API Gateway
-- AWS ECS
+
+  
 
 Banco de dados:
 
