@@ -17,8 +17,6 @@ jobs:
       - name: Log in to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
-        with:
-          region: us-east-1
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
@@ -34,3 +32,4 @@ jobs:
       - name: Post Push Verification
         run: |
           echo "Docker image pushed to ECR: $ECR_URI/$IMAGE_NAME:latest"
+
