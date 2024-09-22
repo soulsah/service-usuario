@@ -1,0 +1,8 @@
+br/com/postech/service_usuario/config/BeanConfiguration.class
+br/com/postech/service_usuario/config/DynamoDbConfiguration.class
+br/com/postech/service_usuario/ServiceUsuarioApplication.class
+br/com/postech/service_usuario/adapters/out/SpringDataDynamoDbUsuarioRepository.class
+br/com/postech/service_usuario/adapters/in/UsuarioController.class
+br/com/postech/service_usuario/application/ports/UsuarioRepositoryPort.class
+br/com/postech/service_usuario/domain/Usuario.class
+br/com/postech/service_usuario/application/service/UsuarioService.class

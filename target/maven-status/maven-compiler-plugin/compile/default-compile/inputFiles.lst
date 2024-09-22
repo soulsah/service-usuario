@@ -1,0 +1,8 @@
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/ServiceUsuarioApplication.java
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/adapters/in/UsuarioController.java
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/adapters/out/SpringDataDynamoDbUsuarioRepository.java
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/application/ports/UsuarioRepositoryPort.java
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/application/service/UsuarioService.java
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/config/BeanConfiguration.java
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/config/DynamoDbConfiguration.java
+/home/qrd/Music/service-usuario/src/main/java/br/com/postech/service_usuario/domain/Usuario.java
