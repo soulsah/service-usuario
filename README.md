@@ -55,7 +55,8 @@ Essa abordagem nos proporciona uma estrutura modular, escalável, testável e de
 
 Para rodar a aplicação no AWS ECS, foi criado o arquivo Dockerflie que gerencia o processo de build da aplicação através do Maven e JDK 17:
 
-![image](https://github.com/user-attachments/assets/50101a42-06a1-4df0-a864-ce14e1964717)
+![image](https://github.com/user-attachments/assets/61f37259-d74f-468b-82e9-975f82783ab2)
+
 
 
 ## Documentação das API's
