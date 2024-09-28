@@ -57,13 +57,11 @@ Para rodar a aplicação no AWS ECS, foi criado o arquivo Dockerflie que gerenci
 
 ![image](https://github.com/user-attachments/assets/61f37259-d74f-468b-82e9-975f82783ab2)
 
-
 ## Cobertura de Testes Unitários da aplicação service-usuario
 
 Comprovando acima de 80% de cobertura de testes unitário:
 
 ![image](https://github.com/user-attachments/assets/28d13ac4-2ca8-4b08-9710-249002323c7e)
-
 
 ## Documentação das API's
 
@@ -73,7 +71,9 @@ Microservice Usuario:  http://localhost:8081/swagger-ui/index.html
 
 ![image](https://github.com/user-attachments/assets/a2aafd27-ab13-460b-a6ab-d42a783dc472)
 
+## Arquitetura
 
+![image](https://github.com/user-attachments/assets/5f674c1b-cfea-411e-baeb-838f98b11732)
 
 ## Arquivo Postman
 
